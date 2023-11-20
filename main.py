@@ -3,4 +3,5 @@ from dotenv import load_dotenv
 
 load_dotenv()
 print("Hello World")
-print(os.environ['my_var'])
+print(os.environ['MY_VAR'])
+print(os.environ.get('MY_VAR'))
